@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import google.generativeai as genai
 
@@ -86,7 +86,7 @@ if st.button("Generate Content"):
     with open(file_name, "w", encoding="utf-8") as file:
         file.write(output)
     st.success(f"✅ Content saved as '{file_name}'")
-=======
+
 import streamlit as st
 import google.generativeai as genai
 
@@ -174,4 +174,4 @@ if st.button("Generate Content"):
     with open(file_name, "w", encoding="utf-8") as file:
         file.write(output)
     st.success(f"✅ Content saved as '{file_name}'")
->>>>>>> 03e7786 (Reinitializing Git and re-adding all files)
+
